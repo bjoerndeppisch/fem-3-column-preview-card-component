@@ -1,0 +1,17 @@
+/* Utilities */
+@use 'abstract' as *;
+
+.center {
+  display: grid;
+  place-content: center;
+}
+
+.wrapper {
+  border-radius: rem(8);
+  overflow: hidden;
+  @include breakpoint(small) {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

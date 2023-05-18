@@ -1,0 +1,48 @@
+/* Components */
+@use 'abstract' as *;
+
+.card {
+  padding: rem(48);
+  display: grid;
+  grid-template-rows: rem(50) min-content min-content;
+  gap: rem(25);
+  justify-items: start;
+
+  &__title {
+    font-family: var(--ff-cursive);
+    font-size: rem(40);
+    font-weight: var(--fw-bold);
+    color: var(--clr-gray);
+    line-height: 1.2;
+  }
+
+  &--01 {
+    background-color: var(--clr-primary-1);
+  }
+  &--02 {
+    background-color: var(--clr-primary-2);
+  }
+  &--03 {
+    background-color: var(--clr-primary-3);
+  }
+}
+
+.button {
+  padding: em(12) em(32);
+  margin-block-start: auto;
+  border: 2px solid var(--clr-gray);
+  border-radius: rem(25);
+  background-color: var(--clr-gray);
+  color: var(--clr-black);
+  mix-blend-mode: screen;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: transparent;
+    color: var(--clr-gray);
+  }
+}
