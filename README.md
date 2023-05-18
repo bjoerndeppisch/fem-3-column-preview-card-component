@@ -8,8 +8,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- [Soulution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Soulution](https://www.frontendmentor.io/solutions/3column-preview-card-sass-bem-grid-custom-properties-vite-CWGn2WyiZK)
+- [Live Site](https://your-live-site-url.com](https://bjoerndeppisch-3-column-preview-card.netlify.app/)
 
 ### Built with
 
